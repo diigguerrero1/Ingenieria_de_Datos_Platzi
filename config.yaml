@@ -2,10 +2,14 @@ news_sites:
   eluniversal:
     url: https://www.eluniversal.com.co
     queries:
-      homepage_article_links = '.vertical.menu.menu-3 a'
-  elpais:
-    url: https://elpais.com
+      homepage_article_links : '.general a'
+      article_body: '.paragraph p'
+      article_title: '.titulo.interna span'
+  elespectador:
+    url: https://www.elespectador.com
     queries:
-      homepage_article_links = ''
+      homepage_article_links : '.Layout.Layout_home a'
+      article_body: ''
+      article_title: ''
 
 
